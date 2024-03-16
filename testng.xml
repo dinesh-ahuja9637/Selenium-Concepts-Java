@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="org.dinesh.TestNGAnnotationsDemo"><!-- close tag is redundant here-->
+                <methods>
+                    <include name="test3_Annotation" />
+                                  </methods>
+            </class><!-- close tag should be here-->
+
+        </classes>
+    </test>
+</suite>
